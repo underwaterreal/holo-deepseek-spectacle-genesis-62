@@ -18,6 +18,19 @@ export default {
 			}
 		},
 		extend: {
+			backgroundImage: {
+				'grid-pattern': "radial-gradient(circle, rgba(155, 135, 245, 0.1) 1px, transparent 1px)",
+				'holo-gradient': "linear-gradient(225deg, #9b87f5, #7E69AB, #0EA5E9, #1EAEDB)",
+			},
+			backgroundSize: {
+				'grid': '30px 30px',
+				'holo': '400% 400%',
+			},
+			animation: {
+				'float': 'float 6s ease-in-out infinite',
+				'pulse-glow': 'pulse 4s infinite',
+				'holo-shift': 'holographic-shift 15s ease infinite',
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
